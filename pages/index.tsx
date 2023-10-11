@@ -16,10 +16,9 @@ const Home: NextPage = () => {
   const { contract } = useContract(NFT_CONTRACT_ADDRESS);
   const { data: contractMetadata } = useContractMetadata(contract);
 
-  const handleImageClick = () => {
-    // Redirect to the specified URL when the image is clicked
-    window.location.href = "https://swap.crodex.app/#/swap?outputCurrency=0x3E68eA1588E32e51D98dBda6Ea05128513ECC713";
-  };
+const handleImageClick = () => {
+    window.open("https://swap.crodex.app/#/swap?outputCurrency=0x3E68eA1588E32e51D98dBda6Ea05128513ECC713", "_blank", "width=700,height=600");
+};
 
   return (
     <div className={styles.container} style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
