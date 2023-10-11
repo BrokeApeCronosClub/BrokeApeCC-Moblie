@@ -161,7 +161,7 @@
   justify-content: flex-start;
   align-items: center;
   padding: 1rem;
-  background: rgba(255, 140, 0, 1.0); /* 90% transparency */
+  background: rgba(255, 140, 0, .8); /* 90% transparency */
   color: white; /* Add this line to set text color to black */
 }
 
@@ -176,7 +176,7 @@
   bottom: 0px;
   left: 0;
   right: 0;
-  background: rgba(255, 140, 0, 1.0); /* 90% transparency */
+  background: rgba(255, 140, 0, .8); /* 90% transparency */
     
 }
 
